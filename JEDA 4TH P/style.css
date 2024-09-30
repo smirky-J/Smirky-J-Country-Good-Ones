@@ -1,0 +1,948 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.first_layer{
+    background: black;
+}
+.sfr{
+    font: bold 50px impact;
+    color: white;
+    margin-top: 0.2em;
+}
+.none{
+    background: white;
+    padding: 1em;
+    width: 8px;
+    margin-left: 0.5em;
+    border-radius: 1px;
+    height: 15px;
+    margin-top: 1em;
+}
+.beat{
+    color: white;
+    background: black;
+    padding: 0em 0em 0em 0em;
+    height: 20px;
+    font: bold 15px arial; 
+    margin-top: 1.9em;
+    margin-left: -2.7em;
+  
+}
+.combine{
+    display: flex;
+    margin-top: 1em;
+}
+.first_a{
+    font: bold 14px arial;
+    margin-top: 2em;
+    margin-left:1em;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 1.5em;
+}
+.login{
+    margin-left: 42em;
+}
+.sign{
+    padding: 0.6em;
+    border-radius:  12px;
+    border-color: gold;
+    background: none;
+    color: gold;
+}
+.first_form{
+    text-align: center;
+    margin-top: 1em;
+   
+}
+.search{
+    padding: 0.8em;
+    width: 55em;
+    background: white;
+    border-radius: 5px;
+    border: none;
+}
+.submit{
+    padding: 0.83em;
+    margin-left: -0.8em;
+    width: 8em;
+    background: gold;
+    color: white;
+    border-radius: 0 9px 9px 0;
+    border: none;
+}
+.s_a{
+    color: white;
+    font: bold 14px arial;
+    padding: 1em;
+    text-decoration: underline;
+}
+.second_a{
+    margin-top: 0.5em;
+    margin-left: 19em;
+    padding-bottom: 0.5em;
+}
+.second_layer{
+    background: #344a55;
+}
+.t_a{
+    padding: 0.5em;
+    font: bold 11px arial;
+}
+.third_a{
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+#first_select{
+    font: bold 12px arial;
+    color: white;
+    border-radius: 10px;
+    background: #344a55;
+    border-color: gray;
+    cursor: progress;
+}
+.third_layer{
+    background: #4a6672;
+    padding-bottom: 2em;
+}
+.first_img{
+    width: 55em;
+    margin-top: 1em;
+    margin-left: 15em;
+    background: #69a2b9;
+    padding: 0.3em;
+    border-radius: 10px;
+}
+.all_home{
+    text-align: center;
+    margin-top: 1em;
+}
+.h_a{
+    color: white;
+    font: bold 14px arial;
+    background: #3d5964;
+    padding: 0.8em;
+    border-radius: 5px;
+    border-color: gold;
+    cursor: progress;
+}
+.show{
+    color: grey;
+    font: bold 14px arial;
+}
+#second_select{
+   font: bold 14px arial;
+   color: white;
+    border-radius: 5px;
+    background: #344a55;
+    border: none;
+    padding: 0.3em;
+    width: 17em;
+    cursor: progress;
+}
+.combine_show{
+    margin-left: 56em;
+    margin-top: 1em;
+}
+.new_four{
+    display: flex;
+}
+.forth_layer{
+    margin-left: 10em;
+}
+#third_select{
+    font: bold 12px arial;
+   color: white;
+    border-radius: 5px;
+    background: #344a55;
+    padding: 0.3em;
+    width: 20em;
+    margin-left: 61.2em;
+    margin-top: -2em;
+    border: none;
+    cursor: progress;
+}
+.all_country{
+    font: 10px arial;
+    color: white;
+    margin-left: 7em;
+    margin-top: -3em;
+}
+.sort{
+    color: grey;
+    font: bold 14px arial;
+    margin-left: 10.5em;
+    margin-top: 1.5em;
+}
+.country{
+    font: bold 35px arial;
+}
+.combine_btn{
+    margin-top: 1.5em;
+}
+.filter{
+    background: none;
+    border-color: white;
+    border-radius: 28px;
+    padding: 0.8em;
+    width: 7em;
+    font: bold 14px arial;
+    color: white;
+    margin-left: 5em;
+}
+#fa_filt{
+    margin-right: 0.5em;
+}
+.share{
+    background: none;
+    border-color: pink;
+    border-radius: 28px;
+    padding: 0.8em;
+    width: 7em;
+    font: bold 14px arial;
+    color: white;
+    margin-left: 23em;
+}
+#share_node{
+    margin-right: 0.5em;
+    color: pink;
+}
+.image_gif{
+    width: 30px ;
+    margin-left: 20em;
+}
+.fifth_layer{
+    font: bold 14px arial;
+    color: white;
+    text-align: center;
+    margin-left: -8em;
+    margin-top: 1em;
+}
+.sixth_layer{
+    display: flex;
+    padding: 1em;
+}
+#play1{
+    border-radius: 40px;
+	background-color: #526e79;
+	padding:7px 10px;
+	color: white;
+	font-size: 20px;
+    text-align: center;
+    margin-left: -0.68em;
+    margin-top: -1.5em;
+}
+.first_circle{
+    background: white;
+    padding: 1em;
+    padding-bottom: 1.3em;
+    padding-top: 0.8em;
+    padding-left: 1.05em;
+    width: 8px;
+    border-radius: 25px;
+    height: 6px;
+    margin-left: 7em;
+    margin-top: 0.5em;
+}
+.country_good{
+    color: white;
+    font: bold 14px arial;
+    margin-top: 1em;
+    margin-left: 3em;
+}
+.line_img{
+    width: 250px;
+    height: 25px;
+    margin-left: 6em;
+    margin-top: 0.7em;
+}
+.exclusive{
+    color: #547e94;
+    font: 11px arial;
+    text-align: center;
+    margin-top: -0.5em;
+    margin-left: 3em;
+}
+.second_circle{
+    background: #344a55;
+    padding: 1em;
+    padding-bottom: 1.5em;
+    padding-top: 0.7em;
+    padding-right: 1.06em;
+    width: 8px;
+    border-radius: 25px;
+    height: 6px;
+    margin-top: 0.3em;
+    margin-left: 1.5em;
+}
+#fa_download{
+    width: 10px;
+    color: white;
+    margin-left: -0.3em;
+    padding-bottom: 5em;
+}
+.third_circle{
+    background: #344a55;
+     padding: 1em;
+    padding-bottom: 1.4em;
+    padding-top: 0.8em;
+    padding-right: 1.06em;
+    width: 8px;
+    border-radius: 25px;
+    height: 6px;
+    margin-top: 0.3em;
+    margin-left: 1.5em;
+}
+#fas_filter{
+    width: 10px;
+    color: white;
+    margin-left: -0.3em;
+    padding-bottom: 5em;
+}
+.forth_circle{
+    background: #344a55;
+    padding: 1em;
+    padding-bottom: 1.5em;
+    padding-top: 0.7em;
+    padding-right: 1.06em;
+    width: 8px;
+    border-radius: 25px;
+    height: 6px;
+    margin-top: 0.3em;
+    margin-left: 1.5em;
+}
+#fa_cart{
+    width: 10px;
+    color: white;
+    margin-left: -0.3em;
+    padding-bottom: 4em;
+}
+.seventh_layer{
+    display: flex;
+    margin-top: 1.8em;
+    margin-left: 18em;
+}
+.first_square{
+    padding: 0.4em;
+    background: none;
+    width:2em;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+.s_square{
+    padding: 0.4em;
+    background: none;
+    width:2em;
+    color: white;
+    border: 1px solid grey;
+    margin-left: -0.05em;
+    border-radius: 2px;
+    font: bold 14px arial;
+}
+.t_square{
+    padding: 0.4em;
+    background: #1d2930;
+    width:2em;
+    color: white;
+    border: 0.2px solid rgb(54, 54, 54);
+    margin-left: -0.05em;
+    border-radius: 2px;
+    font: bold 14px arial;
+}
+.ff_square{
+    padding: 0.4em;
+    background: #1d2930;
+    width:2em;
+    color: white;
+    border: 0.5px solid rgb(54, 54, 54);
+    margin-left: -0.05em;
+    border-radius: 2px;
+    font: bold 14px arial;
+}
+.if_square{
+    padding: 0.4em;
+    background: #1d2930;
+    width:2em;
+    color: white;
+    border: 0.5px solid rgb(54, 54, 54);
+    margin-left: -0.05em;
+    border-radius: 2px;
+    font: bold 14px arial;
+}
+.coma_square{
+    padding: 0.4em;
+    background: #1d2930;
+    width:2em;
+    color: white;
+    border: 0.5px solid rgb(54, 54, 54);
+    margin-left: -0.05em;
+    border-radius: 2px;
+    font: bold 14px arial;
+}
+.next_page{
+    background: gold;
+    color: black;
+    padding: 1.5em;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 38em;
+    margin-top: 3em;
+    border: 1px solid white;
+    font: bold 17px arial;
+}
+.eight_layer{
+    font: 12px arial;
+    margin-top: 2em;
+    margin-left: 18em;
+    color: white;
+    background: #4a6672;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    box-shadow: 0 0 4px;
+    width: 85em;
+}
+.best_view{
+    font: bold 25px arial;
+    margin-left: 2em;
+    background: #4c6a79;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    width: 36em;
+    border-radius: 7px;
+}
+.all_bpm{
+    margin-top: 3em;
+    margin-left: 12em;
+}
+.beats{
+    margin-top: 2em;
+}
+.beats_marked{
+    margin-top: 2em;
+}
+.purple_marked{
+    margin-top: 2em;
+}
+.nineth_layer{
+    text-align-last: center;
+    font: bold 18px arial;
+    margin-top: 3em;
+}
+.beat_license{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: tahoma;
+}
+.sfr_beats{
+    font-size: 18px;
+    font-family: times new roman;
+}
+.license_btn{
+    margin-top: 2em;
+}
+.nonexclusive_btn{
+    padding: 0.8em;
+    width: 25em;
+    background: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    font: bold 18px arial;
+    margin-left: 3em;
+}
+.exclusive_btn{
+    padding: 0.8em;
+    width: 25em;
+    background: rgb(248, 195, 248);
+    color: rgb(245, 114, 245);
+    border: 2px solid violet;
+    border-radius: 12px;
+    font: bold 18px arial;
+    margin-left: 4em;
+}
+.help{
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-top: 0.5em;
+}
+.tenth_layer{
+    font: 12px arial;
+    margin-top: 3em;
+    color: white;
+    background: #4a6672;
+    padding-top: 2.5em;
+    padding-bottom: 2em;
+}
+.all_frees{
+    margin-left: 15em;
+    margin-top: 2em;
+    box-shadow: 0 0 1px;
+    width: 86em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.free_beat{
+    font: bold 25px arial;
+    margin-left: 2em;
+    background: #4c6a79;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    width: 36em;
+    border-radius: 7px;
+}
+.free_downloads{
+    margin-top: 2em;
+    margin-left: 12em;
+}
+.all_signups{
+    margin-left: 15em;
+    margin-top: 2em;
+    width: 86em;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    background: rgb(23, 23, 44);
+}
+.signup{
+        font: bold 25px arial;
+        margin-left: em;
+        background: rgb(22, 22, 32);
+        padding: 0.5em;
+        padding-left: 1.5em;
+        width: 39em;
+        border-radius: 7px;
+        color: yellow;
+}
+.signup_list{
+    margin-top: 2em;
+    margin-left: 8em;
+
+}
+.signup_now{
+    color: yellow;
+    margin-left: 12.3em;
+    font: bold 14px arial;
+    margin-top: 1em;
+}
+.twelve_layer{
+    background: orange;
+    padding-bottom: 1em;
+}
+.coupon_layer1{
+    font-size: 30px;
+    font-family: arial;
+    font-weight: bold;
+    padding: 2em;
+    margin-left: 2em;
+}
+.coupon_layer2{
+    font-weight: bold;
+    font-family: arial;
+    margin-left: 7.5em;
+    margin-top: -3.5em;
+}
+.coupon_layer3{
+    width: 30%;
+    height: 20px;
+    padding-top: 4px;
+    background: rgb(202, 156, 71);
+    color: white;
+    font-family: arial;
+    margin-left: 7.5em;
+    margin-top: 3em;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+.coupon_layer4{
+    font-size: 18px;
+    font-weight: bold;
+    background: black;
+    color: yellow;
+    border: 1px solid gold;
+    border-radius: 18px;
+    padding: 0.5em;
+    width: 10%;
+    margin-top: 2em;
+    margin-left: 6em;
+    
+}
+.allow{
+    font: bold 12px arial;
+    margin-top: 1.5em;
+    margin-left: 9em;
+}
+.thirteenth_layer{
+    background: #344a55;
+    padding-top: 2em;
+}
+.Distrokid{
+    text-align: center;
+    font: bold 15px arial;
+    box-shadow: 0 0 1px gray;
+    color: white;
+    width: 55em;
+    margin-left: 15em;
+}
+.question_layer{
+    background:#293942;
+    margin-left: 13em;
+    margin-top: 3em;
+    width: 54.8em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+.got_question{
+    font:22px arial;
+    margin-left: 0.2em;
+    background: #25343b;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    width: 37.3em;
+    color: white;
+    box-shadow: 0 0 0.8px gray;
+}
+.email{
+    font: 20px arial;
+    color: white;
+    margin-top: 2em;
+    margin-left: 2.2em;
+}
+.helpful_layer{
+    background:rgb(78, 167, 202);
+    margin-left: 13em;
+    margin-top: 3em;
+    width: 54.8em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+.hint{
+    font: 22px arial;
+    margin-left: 0.2em;
+    background: rgb(60, 140, 172);
+    padding: 0.5em;
+    padding-left: 1.5em;
+    width: 37.3em;
+    color: white;
+    box-shadow: 0 0 0.8px gray;  
+}
+.music_instrument{
+    color: white;
+    font: 15px arial;
+    margin-top: 2em;
+    margin-left: 2.2em;
+}
+.review_layer{
+    background: rgb(161, 78, 240);
+    margin-left: 13em;
+    margin-top: 3em;
+    width: 54.8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.featured_review{
+    font: 22px arial;
+    margin-left: 0.2em;
+    background: rgb(151, 74, 223);
+    padding: 0.5em;
+    padding-left: 1.5em;
+    width: 37.3em;
+    color: white;
+    box-shadow: 0 0 0.8px gray;  
+}
+.good{
+    color: white;
+    font: 15px arial;
+    margin-top: 2em;
+    margin-left: 2.2em;
+}
+.all_genre{
+    margin-left: 12em;
+    display: flex;
+    margin-top: 3em;
+    font: 20px arial;
+    color: white;
+}
+.genre{
+    margin-right: 1em;
+    background: black;
+    padding: 1em;
+    border-radius: 3px;
+    padding-top: 0.8em;
+    padding-bottom: 2em;
+}
+.type{
+    margin-top: 1em;
+}
+.tempo{
+    margin-left: 1.5em;
+    margin-top: 1em;
+}
+.allbeats_layer{
+    font: 14px arial;
+    padding-left: 9em;
+    display: flex;
+    color: yellow;
+    background: black;
+    padding-top: 3em;
+    margin-top: -1em;
+    padding-bottom: 5em;
+}
+.gospel_beat{
+    margin-left: 8.5em;
+}
+.Dance_beat{
+    margin-left: 8em;
+}
+.Charming_beat{
+    margin-left: 6em;
+}
+.Drama_beat{
+    margin-left: 8em;
+}
+.fifteen_layer{
+    background: rgb(204, 202, 202);
+}
+.free_plus{
+    padding-top: 5em;
+    padding-bottom: 4em;
+}
+.allfree_mail{
+    margin-left: 10em;
+    display: flex;
+}
+.free_email{
+    font: bold 35px arial;
+}
+.what_form{
+    font: 14px arial;
+    background-color: rgb(153, 150, 150);
+    color: white;
+    width: 30em;
+    border: none;
+    border-radius: 18px;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    margin-top: 0.5em;
+    margin-left: 7em;
+}
+.all_plus{
+    margin-left: 10em;
+    display: flex;
+    margin-top: 1.2em;
+}
+.plus_layer{
+    font: 16px arial;
+}
+.best_mail{
+    font: 14px arial;
+    background-color: rgb(153, 150, 150);
+    color: white;
+    width: 30em;
+    border: none;
+    border-radius: 18px;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    margin-top: 0.8em;
+    margin-left: 13.3em;
+}
+.send_now{
+    font-size: 18px;
+    font-weight: bold;
+    background: black;
+    color: yellow;
+    border: 1px solid gold;
+    border-radius: 18px;
+    padding: 0.5em;
+    width: 10%;
+    margin-top: 0.5em;
+    margin-left: 50em;
+}
+.music_help{
+    font: 11px arial;
+    margin-left: 14em;
+    margin-top: 1em;
+}
+.sixteen_layer{
+    background: black;
+    display: flex;
+    padding-bottom: 8em;
+}
+.royalties_layer{
+    color: white;
+    background: black;
+    padding-left: 1em;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    margin-left: 10em;
+}
+.royal_freebeat{
+    box-shadow: 0 0 1px gray;
+    width: 220px;
+    padding-top: 1em;
+    margin-left: 2em;
+    font:15px arial;
+   
+}
+.royal_free{
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+.music_blog{
+    box-shadow: 0 0 1px gray;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.site_map{
+    box-shadow: 0 0 1px gray;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.allbeats_sale{
+    color: white;
+    background: black;
+    padding-left: 1em;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    margin-left: 0.1em;
+}
+.beat_sale{
+    box-shadow: 0 0 1px gray;
+    width: 220px;
+    padding-top: 1em;
+    margin-left: 2em;
+    font:13px arial;
+}
+.all_sales{
+    padding-left: 1em;
+    padding-bottom: 3em;
+}
+.follow_us{
+    box-shadow: 0 0 1px gray;
+    padding-left: 1em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+.currency_layer{
+    margin-top: 2.2em;
+}
+.all_currency{
+    box-shadow: 0 0 1px gray;
+    width: 220px;
+    padding-top: 1em;
+    margin-left: 2em;
+    font:13px arial;
+    margin-top: 1em;
+}
+.currency{
+    padding-left: 1em;
+    padding-bottom: 3em;
+}
+#currency_select{
+    font: bold 12px arial;
+    color: white;
+    border-radius: 2px;
+    width: 5em;
+    background: black;
+    border-color: rgb(43, 42, 42);
+    cursor: progress;
+    margin-top: 2em;
+}
+.sfr_beat{
+    box-shadow: 0 0 1px gray;
+    padding-left: 1em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+}
+.new_sfr{
+    font: 45px impact;
+    color: white;
+    margin-top: 0.2em;
+}
+.new_none{
+    background: white;
+    padding: 1em;
+    width: 8px;
+    margin-left: 1em;
+    border-radius: 1px;
+    height: 15px;
+    margin-top: 1em;
+}
+.new_beat{
+    color: white;
+    background: black;
+    padding: 0em 0em 0em 0em;
+    height: 20px;
+    font: bold 15px arial; 
+    margin-top: 1.6em;
+    margin-left: -2.5em;
+}
+.combine_sfr{
+    margin-left: 3em;
+}
+.new_gif{
+    width: 50px ;
+    margin-left: 4em;
+    margin-top: 5em;
+}
+.combine_sfr{
+    display: flex;
+}
+.More_sfr{
+    box-shadow: 0 0 1px gray;
+    padding-left: 1em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    color: white;
+    font: 12px arial;
+}
+.license_layer{
+    color: white;
+    background: black;
+    padding-left: 1em;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    margin-left: 0.1em;
+}
+.license_help{
+    box-shadow: 0 0 1px gray;
+    width: 220px;
+    padding-top: 1em;
+    margin-left: 2em;
+    font:13px arial;
+}
+.first_license{
+    padding-left: 1em;
+    padding-bottom: 3em;
+}
+.legal{
+    box-shadow: 0 0 1px gray;
+    padding-left: 1em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+.last_layer{
+    background: black;
+    margin-top: -2em;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+.last_div{
+    color: grey;
+    text-align: center;
+    margin-top: 2em;
+    font: bold 15px arial;
+}
+.empty{
+    background: black;
+    width: 68em;
+    height: 2px;
+    margin-left: 10em;
+    box-shadow:  0 0 0.8px gray;
+    margin-top: -8em;
+}
